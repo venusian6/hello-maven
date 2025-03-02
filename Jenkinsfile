@@ -26,7 +26,9 @@ pipeline {
             }
         }
         stage('new test'){
+            steps{
             sh " echo hello vivek"
+        }
         }
     }
 }
