@@ -25,5 +25,8 @@ pipeline {
                 sh "mvn test"
             }
         }
+        stage('new test'){
+            sh " echo hello vivek"
+        }
     }
 }
